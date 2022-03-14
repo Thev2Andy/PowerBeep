@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>PowerBeep.ResourceBuilder</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PowerBeep Interpreter\PowerBeep Interpreter.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PowerLog">
+      <HintPath>..\DLLs\Logging\PowerLog.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

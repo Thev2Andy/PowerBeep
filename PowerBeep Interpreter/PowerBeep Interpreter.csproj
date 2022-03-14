@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Thev2Andy</Authors>
+    <RootNamespace>PowerBeep</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="PowerLog">
+      <HintPath>..\DLLs\Logging\PowerLog.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
