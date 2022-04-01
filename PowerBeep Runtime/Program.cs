@@ -93,7 +93,7 @@ namespace PowerBeep.Runtime
 
         private static async void StartExecution(string ResourcePath)
         {
-            string Code = string.Empty;
+            string Code = String.Empty;
             Interpreter.SurpressFeedback = true;
             Interpreter.SurpressLogs = true;
 
