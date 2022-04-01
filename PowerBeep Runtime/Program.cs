@@ -20,7 +20,7 @@ namespace PowerBeep.Runtime
             string ResourcePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data");
             if (!Directory.Exists(ResourcePath)) Directory.CreateDirectory(ResourcePath);
             StartExecution(ResourcePath);
-            string WindowName = string.Empty;
+            string WindowName = String.Empty;
 
             try {
                 WindowName = Obfuscator.ToString(File.ReadAllText(Path.Combine(ResourcePath, "ApplicationData.bin")));

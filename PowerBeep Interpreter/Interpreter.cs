@@ -89,7 +89,9 @@ namespace PowerBeep
                         Log.Null("", (LogMode.InvokeEvent | LogMode.Save));
                         Log.Error($"Compilation failed after {TotalCompilationTime.ElapsedMilliseconds} ms.");
                         Log.Null("", (LogMode.InvokeEvent | LogMode.Save));
-                    }                    CompilationStatus = false;
+                    }
+
+                    CompilationStatus = false;
                 }
 
 

@@ -6,6 +6,11 @@
     <RootNamespace>PowerBeep</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath></OutputPath>
+    <DocumentationFile>..\PowerBeep Interpreter\PowerBeep Interpreter\XML Docs\PowerBeep XML.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <Reference Include="PowerLog">
       <HintPath>..\DLLs\Logging\PowerLog.dll</HintPath>
