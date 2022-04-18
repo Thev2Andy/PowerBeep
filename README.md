@@ -1,5 +1,5 @@
 # PowerBeep
-A _programming language_ made in C#, that can sequence console beeps.
+A kind of _programming language_ (it's a beep sequencer by text) made in C#, that can sequence console beeps.
 
 You can read more in the documentation [here](https://github.com/Thev2Andy/PowerBeep/wiki).
 
