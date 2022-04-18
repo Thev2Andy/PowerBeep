@@ -1,5 +1,5 @@
 # PowerBeep
-A hybrid (interpreted and compiled) JIT programming language made in C#, that can sequence console beeps.
+A _programming language_ made in C#, that can sequence console beeps.
 
 You can read more in the documentation [here](https://github.com/Thev2Andy/PowerBeep/wiki).
 
