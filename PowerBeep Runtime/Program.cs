@@ -31,7 +31,7 @@ namespace PowerBeep.Runtime
             }
 
             finally {
-                Console.Title = ((!string.IsNullOrEmpty(WindowName)) ? WindowName : "PowerBeep Runtime");
+                Console.Title = ((!String.IsNullOrEmpty(WindowName)) ? WindowName : "PowerBeep Runtime");
             }
 
 
