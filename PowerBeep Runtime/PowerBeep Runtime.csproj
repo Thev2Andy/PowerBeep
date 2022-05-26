@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PowerBeep Interpreter\PowerBeep Interpreter.csproj" />
+    <ProjectReference Include="..\PowerBeep Interpreter\PowerBeep Interpreter.csproj"/>
   </ItemGroup>
 
   <ItemGroup>
