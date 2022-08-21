@@ -140,7 +140,9 @@ namespace PowerBeep
                                         HasApplicationCrashed = true;
                                         goto EndCodeInterpretingProcess;
                                 }
-                            }else {
+                            }
+                            
+                            else {
                                 if (!SurpressExecutionCrashes) Log.Fatal("Keywords and values don't match.");
                                 HasApplicationCrashed = true;
                                 goto EndCodeInterpretingProcess;
@@ -161,7 +163,9 @@ namespace PowerBeep
                 HasApplicationCrashed = false;
                 IsInterpreting = false;
                 return CompilationStatus;
-            }else {
+            }
+            
+            else {
                 if (!SurpressLogs) Log.Error("The interpreter is currently busy..");
                 return false;
             }
